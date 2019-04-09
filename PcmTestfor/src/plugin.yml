@@ -1,0 +1,11 @@
+name: PcmTestfor
+main: fr.cactuscata.pcmtestfor.PcmTestfor
+author: CactusCata
+version: 1.0.2
+website: https://pleasecraftme.fr/
+description: Plugin qui permet de contrer les cheats.
+depend: [PcmEvent]
+commands:
+  anticheat:
+    description: Permet de verifier les cheats des joueurs ou de les remettre a zero.
+    permission: pcm.event.command.anticheat
